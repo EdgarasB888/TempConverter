@@ -73,7 +73,7 @@ class HomeViewController: UIViewController
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
-        if segue.identifier == "appID"
+        if segue.identifier == "convertedID"
         {
             guard let vc = segue.destination as? ConvertedTempViewController else {return}
             vc.tempValueText = convertedTempLabel.text ?? "No data detected!"

@@ -104,7 +104,7 @@
                         <barButtonItem key="leftBarButtonItem" title="Item" image="thermometer.sun" catalog="system" id="1ax-6p-6Si">
                             <color key="tintColor" systemColor="labelColor"/>
                             <connections>
-                                <segue destination="4dH-t5-Sza" kind="popoverPresentation" identifier="appID" popoverAnchorBarButtonItem="1ax-6p-6Si" id="QEv-sF-9HA">
+                                <segue destination="4dH-t5-Sza" kind="popoverPresentation" identifier="convertedID" popoverAnchorBarButtonItem="1ax-6p-6Si" id="QEv-sF-9HA">
                                     <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                 </segue>
                             </connections>
@@ -154,8 +154,8 @@
                                     <constraint firstAttribute="width" constant="220" id="Li9-7d-may"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1aF-Iy-hUv">
-                                <rect key="frame" x="270" y="340" width="76" height="70"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1aF-Iy-hUv">
+                                <rect key="frame" x="262" y="340" width="97" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="76" id="1HG-1K-9EQ"/>
                                     <constraint firstAttribute="height" constant="70" id="o8G-5h-E49"/>
@@ -168,10 +168,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="uWn-eR-4Yl" firstAttribute="top" secondItem="D3t-H1-A3l" secondAttribute="top" constant="48" id="56X-42-NuG"/>
-                            <constraint firstItem="D3t-H1-A3l" firstAttribute="trailing" secondItem="1aF-Iy-hUv" secondAttribute="trailing" constant="29" id="5PY-l8-osr"/>
+                            <constraint firstItem="D3t-H1-A3l" firstAttribute="trailing" secondItem="1aF-Iy-hUv" secondAttribute="trailing" constant="16" id="5PY-l8-osr"/>
                             <constraint firstItem="PoL-tK-X3H" firstAttribute="leading" secondItem="D3t-H1-A3l" secondAttribute="leading" constant="35" id="A4L-UI-hdx"/>
                             <constraint firstItem="PoL-tK-X3H" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="D3t-H1-A3l" secondAttribute="leading" symbolic="YES" id="C6E-EK-9Y2"/>
-                            <constraint firstItem="1aF-Iy-hUv" firstAttribute="leading" secondItem="PoL-tK-X3H" secondAttribute="trailing" constant="8" symbolic="YES" id="EAa-0f-xto"/>
+                            <constraint firstItem="1aF-Iy-hUv" firstAttribute="leading" secondItem="PoL-tK-X3H" secondAttribute="trailing" id="EAa-0f-xto"/>
                             <constraint firstItem="1aF-Iy-hUv" firstAttribute="baseline" secondItem="PoL-tK-X3H" secondAttribute="baseline" id="Mvn-C1-sxv"/>
                             <constraint firstItem="uWn-eR-4Yl" firstAttribute="centerX" secondItem="YXx-QE-TN3" secondAttribute="centerX" id="rSs-X1-dTe"/>
                             <constraint firstItem="PoL-tK-X3H" firstAttribute="top" secondItem="uWn-eR-4Yl" secondAttribute="bottom" constant="48" id="vHv-1v-XSi"/>
